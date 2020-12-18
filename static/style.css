@@ -1,0 +1,136 @@
+
+@font-face {
+  font-family: Raleway-Black;
+  src: url('../fonts/raleway/Raleway-Black.ttf');
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url('../fonts/raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('../fonts/raleway/Raleway-Bold.ttf');
+}
+
+
+p{
+  color: black !important;
+  font-family: Raleway-SemiBold, sans-serif !important;
+
+}
+
+body, html {
+	height: 100%;
+	font-family: Raleway-SemiBold, sans-serif;
+}
+
+body{
+  background-image: url("back-pix.jpg");
+   background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;}
+  /* background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */
+
+
+
+a {
+	font-family: Raleway-SemiBold;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.main{
+  margin-top: 12vh;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.highlight{
+  text-decoration: underline !important;
+  color: #9D50BB !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom: 9px;
+}
+
+p,.control-label {
+	font-family: Raleway-SemiBold;
+	font-size: 18px !important;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+.main_heading{
+  margin-top: -15px !important;
+  font-size: 50px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+input {
+  border-radius: 10px !important;
+  height: 43px !important;
+}
+
+
+
+
+select{
+  border-radius: 10px !important;
+  height: 43px !important;
+  width: 100%;
+
+}
+
+
+button {
+  border-radius: 20px !important;
+	outline: none !important;
+  height: 40px !important;
+  width: 100px;
+  color: #000 !important;
+  background: #9D50BB !important;
+  background: -webkit-linear-gradient(to right, #9D50BB, #9D50BB) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9D50BB, #9D50BB) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+button:hover {
+	cursor: pointer;
+}
+.bottom p{
+  color: black !important;
+  background: #F8F8FF;
+  width: 1145px;
+  margin: auto;
+  size: 10px;
+
+}
