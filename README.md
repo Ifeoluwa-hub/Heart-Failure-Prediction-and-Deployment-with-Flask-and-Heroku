@@ -3,4 +3,6 @@ Cardiovascular diseases are the number 1 cause of death globally, taking an esti
 
 Early detection, and managment of cardiovascular diseases can be a great way to manage the fatality rate associated with cardiovascular diseases, and this is where a machine learning model comes in. 
 
-For the purpose of predicting the risk of a  heart failure in patients, I used the Support Vector Classifier to build a machine learning model, and deployed it using Flask and Heroku
+For the purpose of predicting the risk of a  heart failure in patients, I used the Support Vector Classifier to build a machine learning model, and deployed it using Flask and Heroku.
+
+Link to the medium article: https://towardsdatascience.com/deploying-a-heart-failure-prediction-model-using-flask-and-heroku-55fdf51ee18e
